@@ -12,3 +12,12 @@ def guessing_game():
     print("정답입니다")
 
 guessing_game()
+
+"""
+<더 나은 코드 - while문 부분 수정>
+while True:
+    guess = int(input("숫자를 맞춰보세요: "))
+    if guess == number:
+        print("정답입니다")
+        break
+"""    
