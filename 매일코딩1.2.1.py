@@ -22,4 +22,6 @@ while True:
     if guess == number:
         print("정답입니다")
         break
+    else:
+        print("숫자가 너무 큽니다" if (guess > number) else "숫자가 너무 작습니다")
 """    
