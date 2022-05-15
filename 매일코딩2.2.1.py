@@ -1,5 +1,6 @@
 def pig_latin():
     word = input("단어를 입력해주세요: ")
+    word = word.lower()
     result = ""
     if word[0] in 'aeiou':
         result = result + word + 'way'
