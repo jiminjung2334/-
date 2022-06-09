@@ -7,4 +7,9 @@ def get_rainfall():
             break
 
         mm_rain = input('Enter mm rain: ')
+        rainfall[city_name] = rainfall.get(city_name, int(mm_rain))
 
+    for city, rain in rainfall.items():
+        print(f'{city} : {rain}')
+
+get_rainfall()
